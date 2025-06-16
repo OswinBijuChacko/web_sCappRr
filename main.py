@@ -14,8 +14,8 @@ service = Service('chromedriver.exe')
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # Amazon credentials
-USERNAME = 'sunshndaisy@gmail.com'
-PASSWORD = 'amazon3118'
+USERNAME = '''insert your amazon username here'''
+PASSWORD = '''insert your amazon password here'''
 
 # URLs to scrape
 categories = [
